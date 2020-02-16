@@ -1,0 +1,1 @@
+# jekyll-screenshot-github-action
