@@ -17,7 +17,7 @@ async def main():
     await page.screenshot({'path': '/github/home/screenshot.png'})
     await browser.close()
 
-with subprocess.Popen(['jekyll', 'serve'], cwd='/github/workflow') as p:
+with subprocess.Popen(['jekyll', 'serve'], cwd='/github/workspace') as p:
     time.sleep(3.0)
     asyncio.get_event_loop().run_until_complete(main())
     p.kill()
