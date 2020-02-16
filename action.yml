@@ -1,0 +1,5 @@
+name: 'Jekyll Screenshot'
+description: 'Render the website and save the screenshot'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
